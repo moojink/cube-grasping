@@ -1,0 +1,7 @@
+torchvision
+torchinfo
+ipdb
+imageio
+pybullet
+opencv-python
+imageio[ffmpeg]

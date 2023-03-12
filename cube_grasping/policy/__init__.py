@@ -1,0 +1,1 @@
+from .cube_grasping_robot_policy import CubeGraspingRobotExtractor

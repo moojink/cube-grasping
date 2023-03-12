@@ -1,0 +1,9 @@
+[submodule "stable-baselines3"]
+	path = stable-baselines3
+	url = https://github.com/moojink/stable-baselines3.git
+[submodule "imitation"]
+	path = imitation
+	url = https://github.com/moojink/imitation.git
+[submodule "drq"]
+	path = drq
+	url = https://github.com/moojink/drq.git

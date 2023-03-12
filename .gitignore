@@ -1,0 +1,11 @@
+.idea
+.DS_Store
+__pycache__/
+dtd/
+dtd-*
+data/
+logs/
+output/
+*.sh
+figures/
+*egg-info/
