@@ -72,7 +72,7 @@ class PandaExpertCollector:
                 info = self.env.get_info()
                 a = self.policy.compute_action(info, verbose=False)
                 for k in obs.keys():
-                    if k != 'im_rgb':
+                    if k not in ['im_rgb_1', 'im_rgb_3']:
                         self.obs[k][self._i] = obs[k]
                 if not debug:
                     if self.train_env_kwargs['image_obs']:
