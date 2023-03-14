@@ -1,18 +1,14 @@
 """Generates simulated expert demonstrations in which a Franka Emika Panda robot arm grasps a cube on a tabletop."""
 
+import argparse
 import cube_grasping.env
-from cube_grasping.policy import CubeGraspingRobotExtractor
 import gym
+import imageio
 import ipdb
 import numpy as np
-from stable_baselines3 import SAC
-from stable_baselines3.common.env_checker import check_env
 import os
 import pickle
 from tqdm import tqdm
-import imageio
-import argparse
-import os
 
 
 class PandaExpertPolicy:
